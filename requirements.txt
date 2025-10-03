@@ -1,0 +1,8 @@
+torch
+torchvision
+onnx
+onnxruntime
+pandas
+Pillow
+matplotlib
+Restnet-18
