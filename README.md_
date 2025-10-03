@@ -1,7 +1,5 @@
-Build a mini classification pipeline that simulates scrap material classification using image data, and
-deploy it in a simple real-time simulation loop. The goal is to test your data skills, modeling ability,
+Build a mini classification pipeline that simulates scrap material classification using image data, and deploy it in a simple real-time simulation loop. The goal is to test your data skills, modeling ability,
 deployment awareness, and your documentation & collaboration approach.
-
 
 ## Dataset Preparation
 - Use any publicly available dataset (or combinations) with at
@@ -35,4 +33,5 @@ captured at intervals from a video or image folder.
 - For each frame:
 → Classify
 → Log output to console + store in a result CSV
+
 → Print confidence threshold flag if low.
