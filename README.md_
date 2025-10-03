@@ -33,5 +33,4 @@ captured at intervals from a video or image folder.
 - For each frame:
 → Classify
 → Log output to console + store in a result CSV
-
 → Print confidence threshold flag if low.
