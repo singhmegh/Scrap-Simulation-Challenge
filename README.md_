@@ -1,0 +1,38 @@
+Build a mini classification pipeline that simulates scrap material classification using image data, and
+deploy it in a simple real-time simulation loop. The goal is to test your data skills, modeling ability,
+deployment awareness, and your documentation & collaboration approach.
+
+
+## Dataset Preparation
+- Use any publicly available dataset (or combinations) with at
+least 5 different classes of materials (e.g., metal, plastic,
+e-waste, paper, fabric, etc.)
+- Perform basic data cleaning, augmentation, and preprocessing
+for training readiness.
+
+## Features
+- Image classification with 12 classes
+- TorchScript / ONNX model export
+- Dummy conveyor simulation for real-time frame processing
+- Logs predictions + confidence + low-confidence flags
+- Saves results to CSV
+
+## Model Development
+Build a classification model using CNN-based architecture (ResNet-18)
+- Use transfer learning for faster convergence.
+- Evaluate with metrics: accuracy, precision, recall, confusion
+matrix.
+
+## Lightweight Deployment
+Convert model to ONNX or TorchScript and create a
+lightweight inference script.
+- The script should be capable of taking 1 image/frame and
+outputting predicted class & confidence.
+
+## Simulated Real-Time Loop
+Build a dummy conveyor simulation that mimics frames being
+captured at intervals from a video or image folder.
+- For each frame:
+→ Classify
+→ Log output to console + store in a result CSV
+→ Print confidence threshold flag if low.
